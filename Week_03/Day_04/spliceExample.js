@@ -1,6 +1,6 @@
 let myArr = [0,1,2,3,4,5,6];
 // splice out index positions 3 and 4
-let splicedOut = myArr.splice(6,1); // start at index three, remove two items
+let splicedOut = myArr.splice(3,2); // start at index three, remove two items
 splicedOut.push(myArr.splice(2,1)[0]);
 myArr.splice(0,1);
 
