@@ -5,6 +5,7 @@ function giveMeParameters(param1,param2){
 }
 
 // calling the function 
-giveMeParameters('foo','bar');
+console.log(giveMeParameters('foo','bar'));
 
 // why don't we see "Those are the parameters I received from the function call."?
+
