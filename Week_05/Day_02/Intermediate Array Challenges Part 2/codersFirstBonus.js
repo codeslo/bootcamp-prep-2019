@@ -1,6 +1,8 @@
 function codersFirst(arr) {
    let result = [];
-
+   if(!arr.includes('Coders')){
+       result.push('Coders');
+   }
    for(let i =0;i<arr.length;i++){
        if(arr[i] === 'Coders'){
         result.push(arr[i]);
@@ -12,6 +14,8 @@ function codersFirst(arr) {
            result.push(arr[i]);
        }
    }
+
+   
    
    return result;
 }
