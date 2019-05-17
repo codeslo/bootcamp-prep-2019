@@ -1,20 +1,18 @@
-table{
-    width:30%;
-    margin:auto;
-    border:1px solid gray;
-    font-size:20px;
+table {
+  width: 30%;
+  margin: auto;
+  border: 1px solid gray;
+  font-size: 20px;
 }
-
-td{
-    border:1px solid gray;
-    padding:5px;
+td {
+  border: 1px solid gray;
+  padding: 5px;
 }
-.table-head{
-    color:white;
-    background-color:seagreen;
-    font-weight:bold;
+.table-head {
+  color: white;
+  background-color: seagreen;
+  font-weight: bold;
 }
-
-.dark{
-    background-color:darkseagreen;
+.dark {
+  background-color: darkseagreen;
 }
