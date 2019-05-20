@@ -5,6 +5,8 @@ function myFunc(){
     let mySecondVar = 20;
  }
  
+myFunc();
+
  console.log(myFirstVar);
  console.log(mySecondVar);
  

@@ -9,3 +9,7 @@ function lieDetector(phrase){
        console.log("The phrase is false");
    }
 }
+
+lieDetector(dietingIsEasy);
+lieDetector(iDontNeedToLookItUpIKnowImRight);
+lieDetector(iCanLearnToCode);
